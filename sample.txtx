@@ -1,0 +1,5 @@
+        - search: to find papers
+        - summarize: to condense paper content
+        - citation: to generate citations
+        - hypothesis: to propose new research hypotheses
+        - report: to write structured research reports
