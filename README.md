@@ -53,16 +53,10 @@
 
 ## 📸 Screenshots
 
-| UI | Agentic API |
-|----|-------------|
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg) | ![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg) |
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg) | ![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg) |
-
----
-
-## 📄 License
-
-This project is licensed for educational and demonstration purposes under the IBM SkillsBuild program.
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg)
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg)
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg) 
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg) 
 
 ---
 
