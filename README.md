@@ -34,7 +34,7 @@
 ## 🛠 Tech Stack
 
 - **Backend**: Python 3.10+, FastAPI, IBM Granite Foundation Models
-- **Frontend**: HTML, CSS, JavaScript (via Jinja2 templates)
+- **Frontend**: React.js
 - **Third-Party Services**: arXiv.org API
 
 ---
