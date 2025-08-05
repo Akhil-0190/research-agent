@@ -60,7 +60,7 @@
 
 ---
 
-## 🙋‍♂️ Acknowledgements
+## Acknowledgements
 
 - **IBM SkillsBuild & WatsonX AI** – For providing access to Granite foundation models and cloud services.
 - **Edunet Foundation** – For mentorship and internship support.
