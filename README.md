@@ -1,46 +1,73 @@
 # 🧠 ResearchAgent – Autonomous AI Research Assistant
 
-**ResearchAgent** is an AI-powered system designed to assist researchers in conducting structured academic investigations with minimal manual effort. It automates the entire research workflow — from gathering relevant papers to summarizing content, generating citations, proposing hypotheses, and drafting reports — all driven by foundation models.
+**ResearchAgent** is an intelligent agentic system that automates academic research workflows using foundation models. It transforms natural language queries into structured research tasks, autonomously performs each step, and self-corrects through reflection — enabling rapid, high-quality research generation with minimal manual input.
 
-> 🏆 This project is part of the **IBM SkillsBuild AICTE Internship**, supported by **Edunet Foundation**.
+> ✅ Built as part of the **IBM SkillsBuild AICTE Internship**, powered by **Edunet Foundation** and **IBM Granite Foundation Models**.
 
 ---
 
 ## 🚀 Key Features
 
-- **End-to-End AI Research Pipeline**
-  - Breaks down any research question into step-by-step actions.
-  - Automatically selects appropriate tools for each step.
+### 🔁 End-to-End Autonomous Pipeline
+- Decomposes any research question into a multi-step plan.
+- Executes tasks using specialized tools in the correct order.
+- Stores and reuses memory across steps.
 
-- **Agentic Intelligence**
-  - Uses self-reflection to assess whether each step was successful.
-  - If improvement is needed, the agent autonomously retries the task based on its own reasoning.
+### 🧠 Agentic Intelligence with Self-Reflection
+- Reflects after each step to determine success or failure.
+- If improvement is needed, the agent retries the step automatically using its own reasoning (within safe limits).
+- Ensures output quality and coherence before proceeding.
 
-- **Built-in Tools**
-  - 🔍 `search`: Finds relevant papers using arXiv API.
-  - 📄 `summarize`: Condenses research abstracts and findings.
-  - 📚 `citation`: Formats citations in APA and IEEE.
-  - 💡 `hypothesis`: Proposes original research hypotheses.
-  - 📝 `report`: Drafts structured research reports.
-  - 🧠 `reflect`: Evaluates outcomes and guides retries.
-  - 🛠 `query_rewriter`: Refines user queries for improved academic relevance.
+### 🧰 Modular Toolset
+| Tool          | Functionality |
+|---------------|---------------|
+| `search`      | Fetches relevant papers from arXiv. |
+| `summarize`   | Condenses research abstracts into crisp summaries. |
+| `citation`    | Generates citations in both APA and IEEE styles. |
+| `hypothesis`  | Proposes original research hypotheses based on literature. |
+| `report`      | Drafts structured research reports with Introduction, Related Work, Hypothesis, and Conclusion. |
+| `reflect`     | Evaluates whether a step was successful and guides retry logic. |
+| `query_rewriter` | Refines user queries to increase academic search relevance. |
 
-- **Frontend Interface**
-  - Accessible web UI built with FastAPI.
-  - Allows users to perform search for full pipeline execution.
+---
+
+## 🖥 Frontend Interface
+
+- Built using **React.js**
+- Allows users to:
+  - Run full research pipelines.
+  - Perform targeted paper searches.
+  - View citations, hypotheses, and auto-generated reports.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Backend**: Python 3.10+, FastAPI, IBM Granite Foundation Models
-- **Frontend**: React.js
-- **Third-Party Services**: arXiv.org API
+- **Language**: Python 3.10+
+- **Backend**: FastAPI, IBM Granite Foundation Model (`ibm/granite-3-8b-instruct`)
+- **Frontend**: React.js (npm-based)
+- **AI Services**: IBM WatsonX / IBM Cloud Lite
+- **Data Source**: [arXiv.org](https://arxiv.org)
 
 ---
 
-## Screenshots
-![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg)
-![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg)
-![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg)
-![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg)
+## 📸 Screenshots
+
+| UI | Agentic API |
+|----|-------------|
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg) | ![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg) |
+| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg) | ![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg) |
+
+---
+
+## 📄 License
+
+This project is licensed for educational and demonstration purposes under the IBM SkillsBuild program.
+
+---
+
+## 🙋‍♂️ Acknowledgements
+
+- **IBM SkillsBuild & WatsonX AI** – For providing access to Granite foundation models and cloud services.
+- **Edunet Foundation** – For mentorship and internship support.
+- **arXiv API** – For academic paper search and data access.
