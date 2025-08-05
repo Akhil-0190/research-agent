@@ -39,3 +39,6 @@
 
 ---
 
+## Screenshots
+![](https://github.com/Akhil-0190/critical-resource-management/blob/main/image1.png)
+![](https://github.com/Akhil-0190/critical-resource-management/blob/main/image2.png)
