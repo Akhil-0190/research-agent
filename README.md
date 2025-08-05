@@ -53,10 +53,10 @@
 
 ## 📸 Screenshots
 
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg)
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg)
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg) 
-| ![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg) 
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg) 
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg) 
 
 ---
 
