@@ -2,7 +2,7 @@
 
 **ResearchAgent** is an intelligent agentic system that automates academic research workflows using foundation models. It transforms natural language queries into structured research tasks, autonomously performs each step, and self-corrects through reflection — enabling rapid, high-quality research generation with minimal manual input.
 
-> ✅ Built as part of the **IBM SkillsBuild AICTE Internship**, powered by **Edunet Foundation** and **IBM Granite Foundation Models**.
+> ✅ Built as part of the **IBM SkillsBuild AICTE Internship**, powered by **Edunet Foundation** and **IBM Cloud Platform**.
 
 ---
 
