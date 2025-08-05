@@ -6,6 +6,12 @@
 
 ---
 
+## Problem Statement
+
+![](https://github.com/Akhil-0190/research-agent/blob/main/problem_statement.jpg)
+
+---
+
 ## 🚀 Key Features
 
 ### 🔁 End-to-End Autonomous Pipeline
