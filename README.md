@@ -40,5 +40,7 @@
 ---
 
 ## Screenshots
-![](https://github.com/Akhil-0190/critical-resource-management/blob/main/image1.png)
-![](https://github.com/Akhil-0190/critical-resource-management/blob/main/image2.png)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%201.jpg)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%202.jpg)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%203.jpg)
+![](https://github.com/Akhil-0190/research-agent/blob/main/image%204.jpg)
