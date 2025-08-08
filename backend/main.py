@@ -15,16 +15,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app = FastAPI()
-
-# Allow frontend requests (adjust if deployed separately)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 @app.get("/agent")
 def run_research_agent(q: str = Query(..., description="Your research question")):
     agent = ResearchAgent(query=q)
